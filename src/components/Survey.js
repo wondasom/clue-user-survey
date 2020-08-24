@@ -9,14 +9,10 @@ import {
 } from '../constants/style';
 import { COLORS } from '../constants/style';
 
-import {
-	CircularProgressbar,
-	buildStyles
-} from 'react-circular-progressbar';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { easeQuadInOut } from 'd3-ease';
 import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
-
 
 function Survey() {
 	return (
@@ -57,8 +53,67 @@ function Survey() {
 					}}
 				</AnimatedProgressProvider>
 			</ProgressbarContainer>
+
 			<Subtitle style={{ color: `${COLORS.green}` }}>
 				Among 250 votes, 28% of them know the Clue and are using it
+			</Subtitle>
+			<ProgressbarContainer>
+				<AnimatedProgressProvider
+					valueStart={0}
+					valueEnd={39}
+					duration={1.4}
+					easingFunction={easeQuadInOut}
+				>
+					{(value) => {
+						const roundedValue = Math.round(value);
+						return (
+							<CircularProgressbar
+								value={value}
+								text={`${roundedValue}%`}
+								styles={buildStyles({ pathTransition: 'none' })}
+								strokeWidth={8}
+								styles={buildStyles({
+									pathColor: `${COLORS.lightGrey}`,
+									trailColor: `${COLORS.greyBackground}`,
+									textColor: `${COLORS.lightGrey}`
+								})}
+							/>
+						);
+					}}
+				</AnimatedProgressProvider>
+			</ProgressbarContainer>
+
+			<Subtitle style={{ color: `${COLORS.lightGrey}` }}>
+				39% of them said they do not know the app
+			</Subtitle>
+			<ProgressbarContainer>
+				<AnimatedProgressProvider
+					valueStart={0}
+					valueEnd={28}
+					duration={1.4}
+					easingFunction={easeQuadInOut}
+				>
+					{(value) => {
+						const roundedValue = Math.round(value);
+						return (
+							<CircularProgressbar
+								value={value}
+								text={`${roundedValue}%`}
+								styles={buildStyles({ pathTransition: 'none' })}
+								strokeWidth={8}
+								styles={buildStyles({
+									pathColor: `${COLORS.lightGrey}`,
+									trailColor: `${COLORS.greyBackground}`,
+									textColor: `${COLORS.lightGrey}`
+								})}
+							/>
+						);
+					}}
+				</AnimatedProgressProvider>
+			</ProgressbarContainer>
+
+			<Subtitle style={{ color: `${COLORS.lightGrey}` }}>
+				28% of them said they know the app but do not use it
 			</Subtitle>
 		</SectionContainer>
 	);
