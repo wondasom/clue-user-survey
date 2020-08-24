@@ -25,7 +25,7 @@ export const questions = [
 	},
 	{
 		num: 10,
-		question: 'What do you think about the current price of Clue Plus?'
+		question: 'Do you think about the current price of Clue Plus is appropriate?'
 	}
 ];
 
@@ -98,12 +98,12 @@ export const answers = {
 		{ answer: true },
 		{ answer: false },
 		{
-			answer: true,
+			answer: false,
 			extra:
 				'I know Clue Plus from the popup messages but I’m not sure what other benefits are.'
 		},
 		{
-			answer: true,
+			answer: false,
 			extra: 'I am aware of Clue Plus but do not know what they cover.'
 		},
 		{ answer: false }
@@ -156,7 +156,7 @@ export const answers = {
 		{ answer: true },
 		{ answer: true }
 	],
-	// 10. 'What do you think about the current price of Clue Plus?'
+	// 10. 'Do you think about the current price of Clue Plus is appropriate?'
 	// answer: (boolean)
 	10: [
 		{ answer: true },
@@ -164,6 +164,7 @@ export const answers = {
 		{ answer: true },
 		{ answer: false },
 		{ answer: true },
-		{ extra: `I need more information about Clue Plus to decide.` }
+		{ answer: false,
+			extra: `I need more information about Clue Plus to decide.` }
 	]
 };
