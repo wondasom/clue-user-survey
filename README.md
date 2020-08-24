@@ -46,7 +46,7 @@ As far as I know, most of my fellow Twitter addicts are
 
 - 👥👤👥👤👥(39%): 'I don't know the app'
 - 👤👥👤(28%): 'I know the app but don't use it'
-- 👥👤👥(28%): 'I know the app but am using it' ♥️
+- 👥👤👥(28%): 'I know the app and am using it' ♥️
 - 👤(5%): 'I am just curious about the result'
 
 ## Secod Step: Interview Participants
