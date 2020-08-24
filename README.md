@@ -42,11 +42,11 @@ As far as I know, most of my fellow Twitter addicts are
 
 <img src="src/img/survey-on-twitter.jpeg" width="50%"><br/>
 
-Among 250 votes, 28% of them are the Clue users!
+### Among 250 votes, 28% of them are the Clue users!
 
 - 👥👤👥👤👥(39%): 'I don't know the app'
 - 👤👥👤(28%): 'I know the app but don't use it'
-- 👥👤👥(28%): 'I know the app but am using it'
+- 👥👤👥(28%): 'I know the app but am using it' ♥️
 - 👤(5%): 'I am just curious about the result'
 
 ## Secod Step: Interview Participants
