@@ -38,7 +38,7 @@ As far as I know, most of my fellow Twitter addicts are
 - Korean 🇰🇷
 - experiencing monthly menstruation 🩸
 
-I made a small poll on Twitter and here is the result!
+### I made a small poll on Twitter and here is the result!
 
 <img src="src/img/survey-on-twitter.jpeg" width="70%"><br/>
 
@@ -53,7 +53,7 @@ Among 250 votes, 28% of them are the Clue users!
 
 As a following step, I did a small interview with 7 people who have been using Clue for several months or years.
 
-The interview consists of 10 questions about
+###  The interview consists of 10 questions about
 
 - in-app setting
 - general user experience
