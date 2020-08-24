@@ -17,14 +17,17 @@ export const COLORS = {
 
 // 📦 Container
 export const SectionContainer = styled.div`
+	box-sizing: border-box;
 	width: 90%;
 	background-color: inherit;
 	margin: 0px auto;
-	padding: 3rem 0 0 0;
+	padding: 2vw;
+	padding-bottom: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid blue;
 `;
 
 // ✏️ Divider
@@ -33,16 +36,17 @@ export const Divider = styled.div`
 	width: 100%;
 	height: 1px;
 	border-bottom: 1.5px solid ${COLORS.red};
+	margin-top: 2vw;
 `;
 
 // 💅🏼 Text Styles
 export const Title = styled.h1`
-	font-size: calc(30px + (36 - 30) * ((100vw - 300px) / (1600 - 300)));
-	padding-bottom: 0.625rem;
+	font-size: calc(28px + (36 - 30) * ((100vw - 300px) / (1600 - 300)));
 	font-family: myriad-pro, sans-serif;
 	font-weight: 700;
 	color: ${COLORS.grey};
 	text-align: center;
+	margin-bottom: 2vw;
 `;
 
 export const Subtitle = styled.h2`
@@ -51,7 +55,7 @@ export const Subtitle = styled.h2`
 	color: ${COLORS.red};
 	font-weight: 500;
 	text-align: center;
-	margin-bottom: 0.6rem;
+	margin-bottom: 1.5vw;
 `;
 
 export const Paragraph = styled.div`
@@ -61,4 +65,5 @@ export const Paragraph = styled.div`
 	line-height: 1.8;
 	color: ${COLORS.lightGrey};
 	text-align: center;
+	margin-bottom: 1.5vw;
 `;

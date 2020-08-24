@@ -9,17 +9,20 @@ import {
 	Paragraph
 } from './constants/style';
 
+import Header from './components/Header';
+
 function App() {
 	return (
 		<div className='App'>
-			<SectionContainer>
+			<Header />
+			{/* <SectionContainer>
 				<Title>This is the Title</Title>
 				<Subtitle>This is the Subtitle</Subtitle>
 				<Paragraph>
 					this is a project for display user surbey for the Clue
 				</Paragraph>
 				<Divider></Divider>
-			</SectionContainer>
+			</SectionContainer> */}
 		</div>
 	);
 }
