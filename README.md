@@ -7,6 +7,7 @@ The purpose of this project is to conduct a survey and display the results on th
 ### The website should
 
 - be single page application
+- follow mobile-first approach
 - have minimum clicks
 - display the results of a user interview
 - have basic information of the Clue

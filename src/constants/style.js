@@ -17,7 +17,7 @@ export const COLORS = {
 
 // 📦 Container
 export const SectionContainer = styled.div`
-	width: 75%;
+	width: 90%;
 	background-color: inherit;
 	margin: 0px auto;
 	padding: 3rem 0 0 0;
