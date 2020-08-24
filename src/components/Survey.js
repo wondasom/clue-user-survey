@@ -11,15 +11,12 @@ import { COLORS } from '../constants/style';
 
 import {
 	CircularProgressbar,
-	CircularProgressbarWithChildren,
 	buildStyles
 } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-
-// Animation
 import { easeQuadInOut } from 'd3-ease';
 import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
-import ChangingProgressProvider from '../providers/ChangingProgressProvider';
+
 
 function Survey() {
 	return (
