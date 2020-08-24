@@ -40,7 +40,7 @@ As far as I know, most of my fellow Twitter addicts are
 
 ### I made a small poll on Twitter and here is the result!
 
-<img src="src/img/survey-on-twitter.jpeg" width="70%"><br/>
+<img src="src/img/survey-on-twitter.jpeg" width="50%"><br/>
 
 Among 250 votes, 28% of them are the Clue users!
 
