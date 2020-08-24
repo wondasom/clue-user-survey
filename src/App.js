@@ -11,12 +11,14 @@ import {
 
 import Header from './components/Header';
 import Introduction from './components/Introduction';
+import Survey from './components/Survey';
 
 function App() {
 	return (
 		<div className='App'>
 			<Header />
 			<Introduction></Introduction>
+			<Survey></Survey>
 		</div>
 	);
 }

@@ -1,15 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import {
 	SectionContainer,
-	Divider,
 	Title,
 	Subtitle,
 	Paragraph
 } from '../constants/style';
 import { COLORS } from '../constants/style';
-import Clue from '../img/clue--2.png';
 
 function Introduction() {
 	return (

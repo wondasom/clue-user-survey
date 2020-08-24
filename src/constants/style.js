@@ -12,7 +12,8 @@ export const COLORS = {
 	white: '#fefefe',
 	grey: '#333333',
 	lightGrey: '#727272',
-	yellow: '#f8c433'
+	yellow: '#f8c433',
+	greyBackground: '#f8f4ed'
 };
 
 // 📦 Container
