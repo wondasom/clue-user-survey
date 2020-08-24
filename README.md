@@ -1,4 +1,4 @@
-# Clues for the Clue
+# Clues for the [Clue](https://helloclue.com/)
 
 The purpose of this project is to conduct a survey and display the results on the browser using React JS.
 
@@ -9,7 +9,7 @@ The purpose of this project is to conduct a survey and display the results on th
 - be single page application
 - have minimum clicks
 - display the results of a user interview
-- have basic information of the [Clue](https://helloclue.com/)
+- have basic information of the Clue
 - have visual consistency with the Clue
 
 ## 💁🏻‍♀️ Overview
