@@ -23,7 +23,7 @@ function Survey() {
 			</Subtitle>
 			<Paragraph>
 				Most of my fellow Twitter addicts are{' '}
-				<span style={{ color: `${COLORS.green}` }}> Korean </span>🇰🇷 who are
+				<span style={{ color: `${COLORS.green}` }}> Korean 🇰🇷 </span> who are
 				experiencing{' '}
 				<span style={{ color: `${COLORS.green}` }}>monthly menstruation</span>{' '}
 				🩸

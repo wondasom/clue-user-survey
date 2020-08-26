@@ -13,7 +13,7 @@ import Clue from '../img/clue--2.png';
 
 function Header() {
 	return (
-		<Background>
+		<Background style={{ height: '100vw' }}>
 			<Logo></Logo>
 			<StyledContainer>
 				<StyledTitle>Clues for the Clue</StyledTitle>
@@ -29,9 +29,8 @@ function Header() {
 
 export default Header;
 
-const Background = styled.div`
+export const Background = styled.div`
 	width: 100%;
-	height: 100vw;
 	background-color: #f8f4ed;
 	display: flex;
 `;

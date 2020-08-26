@@ -12,7 +12,7 @@ function Introduction() {
 	return (
 		<SectionContainer>
 			<Title>💁🏻‍♀️ I am the User!</Title>
-			{/* <Subtitle style={{color:`${COLORS.red}`}}>10 questions & 7 interviewees</Subtitle> */}
+			<Subtitle style={{color:`${COLORS.red}`}}>and I LOVE it</Subtitle>
 
 			<Paragraph>
 				Tracking my period, or keeping tabs on my monthly cycle by documenting

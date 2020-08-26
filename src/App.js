@@ -12,6 +12,7 @@ import {
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Survey from './components/Survey';
+import Interview from './components/Interview';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<Header />
 			<Introduction></Introduction>
 			<Survey></Survey>
+			<Interview></Interview>
 		</div>
 	);
 }
