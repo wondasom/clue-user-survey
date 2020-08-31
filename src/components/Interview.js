@@ -21,6 +21,7 @@ import { easeQuadInOut } from 'd3-ease';
 import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
 
 import Setting from './InterviewSections/Setting';
+import Experience from './InterviewSections/Experience';
 
 export function getAverage(arr) {
 	let num = 0;
@@ -31,8 +32,25 @@ export function getAverage(arr) {
 	return average;
 }
 
+export function getYes(arr) {
+	let num = 0;
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i].answer === true) {
+			num++;
+		}
+	}
+	const result = num;
+	return result;
+}
+
 function Interview() {
-	console.log(getAverage(answers[1]));
+	console.log('here');
+	console.log(answers[2]);
+	console.log(answers[2][0].answer);
+	const ex = [{ answer: true }];
+	console.log(getYes(answers[2]));
+	console.log(ex);
+	console.log(getYes(ex));
 
 	return (
 		<Background>
@@ -49,6 +67,10 @@ function Interview() {
 					<Section>
 						<Title>Interview Participants...</Title>
 						<Setting></Setting>
+					</Section>
+					<Section>
+						<Title>The Users...</Title>
+						<Experience></Experience>
 					</Section>
 				</Sections>
 			</SectionContainer>
@@ -72,6 +94,7 @@ export const Section = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 5vw;
 `;
 
 export const ImgBoxContainer = styled.div`
