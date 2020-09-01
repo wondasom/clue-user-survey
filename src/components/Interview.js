@@ -14,7 +14,7 @@ import { answers } from '../constants/surveyResults';
 import Setting from './InterviewSections/Setting';
 import Experience from './InterviewSections/Experience';
 import Article from './InterviewSections/Article';
-import CluePlus from "./InterviewSections/CluePlus"
+import CluePlus from './InterviewSections/CluePlus';
 
 export function getAverage(arr) {
 	let num = 0;

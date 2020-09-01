@@ -12,7 +12,7 @@ The purpose of this project is to conduct a survey and display the results on th
 - [x] display interview results with visual presentations 
 - [ ] have basic information of the Clue
 - [x] have visual consistency with the Clue using the same color palette and the official logo
-- [ ] be deployed successfully
+- [x] be deployed successfully
 
 ## 💁🏻‍♀️ Overview
 

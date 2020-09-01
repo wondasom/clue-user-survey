@@ -12,8 +12,7 @@ function Introduction() {
 	return (
 		<SectionContainer>
 			<Title>💁🏻‍♀️ I am the User!</Title>
-			<Subtitle style={{color:`${COLORS.red}`}}>and I LOVE it</Subtitle>
-
+			<Subtitle style={{ color: `${COLORS.red}` }}>and I LOVE it</Subtitle>
 			<Paragraph>
 				Tracking my period, or keeping tabs on my monthly cycle by documenting
 				the dates, symptoms, and other changes throughout the month can be
@@ -28,8 +27,8 @@ function Introduction() {
 				<span style={{ color: `${COLORS.red}` }}>mission and values</span> .
 			</Paragraph>
 			<Paragraph>
-				In the process of brainstorming ideas for my React toy projects, I decided to
-				take a look at an app that I use regularly and get the most
+				In the process of brainstorming ideas for my React toy projects, I
+				decided to take a look at an app that I use regularly and get the most
 				health-related help from.
 			</Paragraph>
 		</SectionContainer>

@@ -1,12 +1,6 @@
 import React from 'react';
 
-import {
-	getYes,
-	PeopleContainer,
-	Result,
-	StyledSpan,
-	ImgBoxContainer
-} from '../Interview';
+import { getYes, PeopleContainer, Result, StyledSpan } from '../Interview';
 
 import { Subtitle, Paragraph } from '../../constants/style';
 import { COLORS } from '../../constants/style';
@@ -14,10 +8,6 @@ import { answers } from '../../constants/surveyResults';
 
 import { BsFillPersonFill } from 'react-icons/bs';
 
-import {
-	CircularProgressbarWithChildren,
-	buildStyles
-} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 function CluePlus() {

@@ -5,8 +5,8 @@ import {
 	getYes,
 	ImgBoxContainer,
 	PeopleContainer,
-  Result,
-  StyledSpan
+	Result,
+	StyledSpan
 } from '../Interview';
 
 import { Subtitle, Paragraph } from '../../constants/style';
@@ -29,10 +29,10 @@ function Experience() {
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
 					are happy to meet Clue!
 				</Subtitle>
-	
+
 				<ImgBoxContainer>
 					<CircularProgressbarWithChildren
-						value={getAverage(answers[3])*10}
+						value={getAverage(answers[3]) * 10}
 						strokeWidth={6}
 						styles={buildStyles({
 							pathColor: `${COLORS.blue}`,
@@ -45,7 +45,7 @@ function Experience() {
 						</Subtitle>
 					</CircularProgressbarWithChildren>
 				</ImgBoxContainer>
-        <Paragraph>
+				<Paragraph>
 					The average app rating is{' '}
 					<StyledSpan>{getAverage(answers[3])} </StyledSpan>
 					out of 10
@@ -56,7 +56,6 @@ function Experience() {
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
 					are willing to recommend Clue to others
 				</Subtitle>
-		
 
 				<PeopleContainer>
 					{answers[2].map((item) => (
@@ -68,7 +67,7 @@ function Experience() {
 						></BsFillPersonFill>
 					))}
 				</PeopleContainer>
-        <Paragraph>
+				<Paragraph>
 					<StyledSpan>{getYes(answers[2])} </StyledSpan>
 					of {answers[2].length} people said <StyledSpan>YES </StyledSpan>
 				</Paragraph>
@@ -78,10 +77,10 @@ function Experience() {
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
 					are satisfied with Clue's in-app Korean translation
 				</Subtitle>
-				
+
 				<ImgBoxContainer>
 					<CircularProgressbarWithChildren
-						value={getAverage(answers[7])*10}
+						value={getAverage(answers[7]) * 10}
 						strokeWidth={6}
 						styles={buildStyles({
 							pathColor: `${COLORS.blue}`,
@@ -94,7 +93,7 @@ function Experience() {
 						</Subtitle>
 					</CircularProgressbarWithChildren>
 				</ImgBoxContainer>
-        <Paragraph>
+				<Paragraph>
 					The average rating is{' '}
 					<StyledSpan>{getAverage(answers[7])} </StyledSpan>
 					out of 10
@@ -105,7 +104,7 @@ function Experience() {
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
 					think Clue is gender-inclusive
 				</Subtitle>
-			
+
 				<PeopleContainer>
 					{answers[8].map((item) => (
 						<BsFillPersonFill
@@ -116,7 +115,7 @@ function Experience() {
 						></BsFillPersonFill>
 					))}
 				</PeopleContainer>
-        <Paragraph>
+				<Paragraph>
 					<StyledSpan>All </StyledSpan>
 					of the participants <StyledSpan>agree </StyledSpan>
 					that Clue is using gender-inclusive language
@@ -127,5 +126,3 @@ function Experience() {
 }
 
 export default Experience;
-
-

@@ -1,11 +1,6 @@
 import React from 'react';
 
-import {
-	getYes,
-	PeopleContainer,
-	Result,
-	StyledSpan
-} from '../Interview';
+import { getYes, PeopleContainer, Result, StyledSpan } from '../Interview';
 
 import { Subtitle, Paragraph } from '../../constants/style';
 import { COLORS } from '../../constants/style';

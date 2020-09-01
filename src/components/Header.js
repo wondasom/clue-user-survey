@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {
-	SectionContainer,
-	Divider,
-	Title,
-	Subtitle,
-	Paragraph
-} from '../constants/style';
 import { COLORS } from '../constants/style';
 import Clue from '../img/clue--2.png';
 
@@ -18,10 +11,6 @@ function Header() {
 			<StyledContainer>
 				<StyledTitle>Clues for the Clue</StyledTitle>
 				<StyledSubtitle>10 questions & 7 interviewees</StyledSubtitle>
-				{/* <Paragraph>
-					The purpose of this project is to conduct a small survey and display
-					the results on the mobile and web browser using React JS.
-				</Paragraph> */}
 			</StyledContainer>
 		</Background>
 	);
