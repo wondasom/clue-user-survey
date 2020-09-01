@@ -2,17 +2,29 @@
 
 The purpose of this project is to conduct a survey and display the results on the browser using React JS.
 
+You can check it [HERE](https://clues-for-the-clue.netlify.app/) 
+
+
+<img src="src/img/mockup1.png" width="60%"><br/>
+<img src="src/img/mockup2.png" width="80%"><br/>
+
+
 ## 🎨 Design Requirement
 
 ### The website should
+
 - [x] be single page application
 - [x] follow mobile-first approach
 - [ ] have responsive design
 - [x] have minimum clicks
-- [x] display interview results with visual presentations 
+- [x] display interview results with visual presentations
 - [ ] have basic information of the Clue
 - [x] have visual consistency with the Clue using the same color palette and the official logo
 - [x] be deployed successfully
+
+
+
+
 
 ## 💁🏻‍♀️ Overview
 
@@ -24,7 +36,7 @@ There are many period tracking apps and I've used the Clue for more than 2 years
 
 In the process of brainstorming ideas for my toy projects, I decided to take a look at an app that I use regularly and get the most health-related help from.
 
-###  I wanted to know
+### I wanted to know
 
 - general setting's of the users
 - how satisfied the users are
@@ -51,18 +63,16 @@ As far as I know, most of my fellow Twitter addicts are
 - 👥👤👥(28%): 'I know the app and am using it' ♥️
 - 👤(5%): 'I am just curious about the result'
 
-## ✅ Secod Step: 10 Questions and Answers 
+## ✅ Secod Step: 10 Questions and Answers
 
 As a following step, I did a small interview with 7 people who have been using Clue for several months or years.
 
-###  The interview consists of 10 questions about
+### The interview consists of 10 questions about
 
 - in-app setting
 - general user experience
 - contents of Clue
 - Clue Plus
-  
-
 
 ## ⚒️ Technologies
 
