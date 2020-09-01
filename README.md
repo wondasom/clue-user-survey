@@ -1,4 +1,4 @@
-# [Clues for the Clue](https://clues-for-the-clue.netlify.app/)
+# [Clues for the Clue 🩸](https://clues-for-the-clue.netlify.app/) 
 
 The purpose of this project is to conduct a survey about the app [Clue](https://helloclue.com/) and display the results on the browser using React JS.
 
