@@ -22,6 +22,7 @@ import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
 
 import Setting from './InterviewSections/Setting';
 import Experience from './InterviewSections/Experience';
+import Article from './InterviewSections/Article';
 
 export function getAverage(arr) {
 	let num = 0;
@@ -72,6 +73,10 @@ function Interview() {
 						<Title>The Clue Users...</Title>
 						<Experience></Experience>
 					</Section>
+					<Section>
+						<Title>About Clue Articles...</Title>
+						<Article></Article>
+					</Section>
 				</Sections>
 			</SectionContainer>
 		</Background>
@@ -99,6 +104,7 @@ export const Section = styled.div`
 
 export const ImgBoxContainer = styled.div`
 	width: 40%;
+	margin: 3vw 0;
 `;
 
 export const PeopleContainer = styled.div`
@@ -107,12 +113,12 @@ export const PeopleContainer = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: space-between;
-	margin-top: 2vw;
+	margin: 3vw 0;
 `;
 
 export const Result = styled.div`
 	width: 90%;
-	padding: 7vw 0;
+	padding: 5vw 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -121,4 +127,9 @@ export const Result = styled.div`
 	&:last-child {
 		border: none;
 	}
+`;
+
+export const StyledSpan = styled.span`
+	color: ${COLORS.blue};
+	font-weight: 500;
 `;

@@ -11,7 +11,7 @@ export const COLORS = {
 	green: '#8ba52c',
 	white: '#fefefe',
 	grey: '#333333',
-	lightGrey: '#727272',
+	lightGrey: '#929292',
 	yellow: '#f8c433',
 	greyBackground: '#f8f4ed'
 };
@@ -64,5 +64,5 @@ export const Paragraph = styled.div`
 	line-height: 1.8;
 	color: ${COLORS.lightGrey};
 	text-align: center;
-	margin-bottom: 2vw;
+	/* margin-bottom: 2vw; */
 `;

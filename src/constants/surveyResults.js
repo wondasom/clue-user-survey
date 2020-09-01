@@ -94,7 +94,7 @@ export const answers = {
 			answer: false,
 			extra: `I didn’t know there are articles.`
 		},
-		{ answer: true }
+		{ answer: false }
 	],
 	// 5. 'Do you know about Clue Plus?'
 	// answer: (boolean)
