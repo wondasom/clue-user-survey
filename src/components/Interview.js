@@ -69,7 +69,7 @@ function Interview() {
 						<Setting></Setting>
 					</Section>
 					<Section>
-						<Title>The Users...</Title>
+						<Title>The Clue Users...</Title>
 						<Experience></Experience>
 					</Section>
 				</Sections>
@@ -98,6 +98,27 @@ export const Section = styled.div`
 `;
 
 export const ImgBoxContainer = styled.div`
-	width: 45%;
-	margin: 4vw 0;
+	width: 40%;
+`;
+
+export const PeopleContainer = styled.div`
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: space-between;
+	margin-top: 2vw;
+`;
+
+export const Result = styled.div`
+	width: 90%;
+	padding: 7vw 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid ${COLORS.greyBackground};
+	&:last-child {
+		border: none;
+	}
 `;
