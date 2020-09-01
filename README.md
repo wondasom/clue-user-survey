@@ -77,10 +77,17 @@ As a following step, I did a small interview with 7 people who have been using C
 ### This project is created with:
 
 ```
-"react": "^16.13.1",
-"react-dom": "^16.13.1",
-"react-scripts": "3.4.3",
-"styled-components": "^5.1.1"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "d3-ease": "^2.0.0",
+    "react": "^16.13.1",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-move": "^6.4.0",
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.1.1"
 ```
 
 ## ☑️ Setup
