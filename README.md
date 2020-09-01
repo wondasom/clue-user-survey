@@ -5,13 +5,14 @@ The purpose of this project is to conduct a survey and display the results on th
 ## 🎨 Design Requirement
 
 ### The website should
-
-- be single page application
-- follow mobile-first approach
-- have minimum clicks
-- display the results of a user interview
-- have basic information of the Clue
-- have visual consistency with the Clue
+- [x] be single page application
+- [x] follow mobile-first approach
+- [ ] have responsive design
+- [x] have minimum clicks
+- [x] display interview results with visual presentations 
+- [ ] have basic information of the Clue
+- [x] have visual consistency with the Clue using the same color palette and the official logo
+- [ ] be deployed successfully
 
 ## 💁🏻‍♀️ Overview
 
@@ -60,6 +61,7 @@ As a following step, I did a small interview with 7 people who have been using C
 - general user experience
 - contents of Clue
 - Clue Plus
+  
 
 
 ## ⚒️ Technologies
