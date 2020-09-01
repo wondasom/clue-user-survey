@@ -4,7 +4,8 @@ import {
 	getYes,
 	PeopleContainer,
 	Result,
-	StyledSpan
+	StyledSpan,
+	ImgBoxContainer
 } from '../Interview';
 
 import { Subtitle, Paragraph } from '../../constants/style';
@@ -13,17 +14,21 @@ import { answers } from '../../constants/surveyResults';
 
 import { BsFillPersonFill } from 'react-icons/bs';
 
+import {
+	CircularProgressbarWithChildren,
+	buildStyles
+} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-function Article() {
+function CluePlus() {
 	return (
 		<>
 			<Result>
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
-					The articles are not consumed much
+					The Users lack of information about Clue Plus
 				</Subtitle>
 				<PeopleContainer>
-					{answers[4].map((item) => (
+					{answers[5].map((item) => (
 						<BsFillPersonFill
 							style={{
 								color: item.answer ? `${COLORS.blue}` : `${COLORS.lightGrey}`,
@@ -33,17 +38,19 @@ function Article() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					<StyledSpan>{getYes(answers[4])}</StyledSpan> of {answers[4].length}{' '}
-					said they read the articles often and think they are very
-					informational and helpful
+					<StyledSpan>Only {getYes(answers[5])} people</StyledSpan> said they
+					know what Clue Plus is
+				</Paragraph>
+				<Paragraph>
+					<StyledSpan>The rest said they need more information</StyledSpan>
 				</Paragraph>
 			</Result>
 			<Result>
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
-					The users want to read them if they are translated
+					The users think the current price of Clue Plus is appropriate
 				</Subtitle>
 				<PeopleContainer>
-					{answers[9].map((item) => (
+					{answers[10].map((item) => (
 						<BsFillPersonFill
 							style={{
 								color: item.answer ? `${COLORS.blue}` : `${COLORS.lightGrey}`,
@@ -53,12 +60,11 @@ function Article() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					<StyledSpan>{getYes(answers[9])}</StyledSpan> of {answers[9].length}{' '}
-					said they are willing to read them in Korean
+					<StyledSpan>Most </StyledSpan>of them think it is appropriate
 				</Paragraph>
 			</Result>
 		</>
 	);
 }
 
-export default Article;
+export default CluePlus;

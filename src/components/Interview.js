@@ -11,18 +11,10 @@ import {
 import { COLORS } from '../constants/style';
 import { answers } from '../constants/surveyResults';
 
-import {
-	CircularProgressbar,
-	CircularProgressbarWithChildren,
-	buildStyles
-} from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
-import { easeQuadInOut } from 'd3-ease';
-import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
-
 import Setting from './InterviewSections/Setting';
 import Experience from './InterviewSections/Experience';
 import Article from './InterviewSections/Article';
+import CluePlus from "./InterviewSections/CluePlus"
 
 export function getAverage(arr) {
 	let num = 0;
@@ -76,6 +68,10 @@ function Interview() {
 					<Section>
 						<Title>About Clue Articles...</Title>
 						<Article></Article>
+					</Section>
+					<Section>
+						<Title>About Clue Plus...</Title>
+						<CluePlus></CluePlus>
 					</Section>
 				</Sections>
 			</SectionContainer>
