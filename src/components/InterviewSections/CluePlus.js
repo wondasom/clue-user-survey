@@ -50,7 +50,7 @@ function CluePlus() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					<StyledSpan>Most </StyledSpan>of them think it is appropriate
+					<StyledSpan>{getYes(answers[10])} </StyledSpan>of {answers[10].length} people think it is appropriate
 				</Paragraph>
 			</Result>
 		</>
