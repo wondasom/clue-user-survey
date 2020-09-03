@@ -2,7 +2,7 @@
 
 The purpose of this project is to conduct a survey about the app [Clue](https://helloclue.com/) and display the results on the browser using React JS.
 
-### Currently, the site is optimized for the mobile devices
+### The site is optimized for mobile devices
 <img src="src/img/mockup1.png" width="60%"><br/>
 <img src="src/img/mockup2.png" width="80%"><br/>
 
@@ -13,7 +13,7 @@ The purpose of this project is to conduct a survey about the app [Clue](https://
 
 - [x] be single page application
 - [x] follow mobile-first approach
-- [ ] have responsive design
+- [x] have responsive design
 - [x] have minimum clicks
 - [x] display interview results with visual presentations
 - [ ] have basic information of the Clue
