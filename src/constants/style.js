@@ -28,6 +28,19 @@ export const SectionContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	/* border: 1px solid blue; */
+	@media (min-width: 500px) {
+		width: 70%;
+	}
+	@media (min-width: 700px) {
+		width: 65%;
+	}
+	@media (min-width: 1000px) {
+		width: 50%;
+		padding: 4vw 3vw;
+		box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.08);
+		border-radius: 1.5vw;
+		margin-bottom: 5vw;
+	}
 `;
 
 // ✏️ Divider

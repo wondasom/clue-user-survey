@@ -10,7 +10,7 @@ import { COLORS } from '../constants/style';
 
 function Introduction() {
 	return (
-		<SectionContainer>
+		<SectionContainer style={{ boxShadow: 'none' }}>
 			<Title>💁🏻‍♀️ I am the User!</Title>
 			<Subtitle style={{ color: `${COLORS.red}` }}>and I LOVE it</Subtitle>
 			<Paragraph>

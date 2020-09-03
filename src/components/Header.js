@@ -6,23 +6,40 @@ import Clue from '../img/clue--2.png';
 
 function Header() {
 	return (
-		<Background style={{ height: '100vw' }}>
-			<Logo></Logo>
-			<StyledContainer>
-				<StyledTitle>Clues for the Clue</StyledTitle>
-				<StyledSubtitle>10 questions & 7 interviewees</StyledSubtitle>
-			</StyledContainer>
-		</Background>
+		<HeaderContainer>
+			<Background>
+				<Logo></Logo>
+				<StyledContainer>
+					<StyledTitle>Clues for the Clue</StyledTitle>
+					<StyledSubtitle>10 questions & 7 interviewees</StyledSubtitle>
+				</StyledContainer>
+			</Background>
+		</HeaderContainer>
 	);
 }
 
 export default Header;
 
+const HeaderContainer = styled.div`
+	height: 100vw;
+	@media (min-width: 500px) {
+		height: 50vw;
+	}
+	@media (min-width: 700px) {
+		height: 30vw;
+	}
+	@media (min-width: 1000px) {
+		height: 20vw;
+	}
+`;
+
 export const Background = styled.div`
 	width: 100%;
 	background-color: #f8f4ed;
 	display: flex;
+	height: 100%;
 `;
+
 const StyledContainer = styled.div`
 	width: 90%;
 	margin: 0px auto;
@@ -32,7 +49,6 @@ const StyledContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* border: 1px solid blue; */
 `;
 
 const Logo = styled.div`
@@ -46,6 +62,18 @@ const Logo = styled.div`
 	position: absolute;
 	top: 6vw;
 	left: 6vw;
+	@media (min-width: 500px) {
+		top: 3vw;
+		left: 3vw;
+	}
+	@media (min-width: 700px) {
+		top: 2vw;
+		left: 2vw;
+	}
+	@media (min-width: 1000px) {
+		top: 1.5vw;
+		left: 1.5vw;
+	}
 `;
 
 const StyledTitle = styled.h1`

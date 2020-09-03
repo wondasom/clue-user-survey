@@ -2,7 +2,7 @@
 
 The purpose of this project is to conduct a survey about the app [Clue](https://helloclue.com/) and display the results on the browser using React JS.
 
-
+### Currently, the site is optimized for the mobile devices
 <img src="src/img/mockup1.png" width="60%"><br/>
 <img src="src/img/mockup2.png" width="80%"><br/>
 
@@ -43,6 +43,7 @@ In the process of brainstorming ideas for my toy projects, I decided to take a l
 
 ## ✅ First Step: a Tiny Survey
 
+### I made a small poll on Twitter and here is the result!
 I love Twitter. I have a anonymous account with 730 followers.
 
 As far as I know, most of my fellow Twitter addicts are
@@ -50,7 +51,6 @@ As far as I know, most of my fellow Twitter addicts are
 - Korean 🇰🇷
 - experiencing monthly menstruation 🩸
 
-### I made a small poll on Twitter and here is the result!
 
 <img src="src/img/survey-on-twitter.jpeg" width="50%"><br/>
 
@@ -71,6 +71,12 @@ As a following step, I did a small interview with 7 people who have been using C
 - general user experience
 - contents of Clue
 - Clue Plus
+
+### The results of the interview
+- are displayed with visual presentations
+- are summarized as sentences
+- are grouped by question categories
+
 
 ## ⚒️ Technologies
 

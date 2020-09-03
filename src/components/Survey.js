@@ -123,5 +123,22 @@ export default Survey;
 
 const ProgressbarContainer = styled.div`
 	width: 40%;
-	margin: 4vw 0;
+	margin: 5vw 0 4vw 0;
+	/* border:1px solid orange; */
+	@media (min-width: 500px) {
+		width: 33%;
+		margin: 3vw 0 2vw 0;
+	}
+	@media (min-width: 700px) {
+		width: 25%;
+		margin: 2vw 0 1vw 0;
+	}
+	@media (min-width: 1000px) {
+		width: 23%;
+		margin: 3vw 0 1.5vw 0;
+	}
+	@media (min-width: 1300px) {
+		width: 20%;
+		margin: 2vw 0 1.5vw 0;
+	}
 `;

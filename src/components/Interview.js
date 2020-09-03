@@ -39,7 +39,7 @@ export function getYes(arr) {
 function Interview() {
 	return (
 		<Background>
-			<SectionContainer>
+			<SectionContainer style={{ boxShadow: 'none' }}>
 				<Title>📋 10 Questions and Answers</Title>
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
 					The interview consists of 10 questions about
@@ -75,6 +75,15 @@ export default Interview;
 
 const Sections = styled.div`
 	margin-top: 5vw;
+	@media (min-width: 500px) {
+		margin-top: 4vw;
+	}
+	@media (min-width: 700px) {
+		margin-top: 3vw;
+	}
+	@media (min-width: 1000px) {
+		margin-top: 2vw;
+	}
 `;
 
 export const Section = styled.div`
@@ -88,11 +97,29 @@ export const Section = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 5vw;
+	@media (min-width: 500px) {
+	}
+	@media (min-width: 700px) {
+	}
+	@media (min-width: 1000px) {
+		padding: 2vw;
+	}
 `;
 
 export const ImgBoxContainer = styled.div`
 	width: 40%;
 	margin: 3vw 0;
+	@media (min-width: 500px) {
+		width: 36%;
+	}
+	@media (min-width: 700px) {
+		width: 32%;
+		margin: 1vw 0;
+	}
+	@media (min-width: 1000px) {
+		width: 28%;
+		margin: 0.8vw 0;
+	}
 `;
 
 export const PeopleContainer = styled.div`
@@ -102,6 +129,9 @@ export const PeopleContainer = styled.div`
 	justify-content: space-between;
 	align-items: space-between;
 	margin: 3vw 0;
+	@media (min-width: 1000px) {
+		width: 60%;
+	}
 `;
 
 export const Result = styled.div`
@@ -114,6 +144,15 @@ export const Result = styled.div`
 	border-bottom: 2px solid ${COLORS.greyBackground};
 	&:last-child {
 		border: none;
+	}
+	@media (min-width: 500px) {
+		padding: 4vw 0;
+	}
+	@media (min-width: 700px) {
+		padding: 2vw 0;
+	}
+	@media (min-width: 1000px) {
+		padding: 2vw 0;
 	}
 `;
 
