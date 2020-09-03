@@ -15,7 +15,7 @@ function CluePlus() {
 		<>
 			<Result>
 				<Subtitle style={{ color: `${COLORS.blue}` }}>
-					The Users lack of information about Clue Plus
+					The users lack of information about Clue Plus
 				</Subtitle>
 				<PeopleContainer>
 					{answers[5].map((item) => (

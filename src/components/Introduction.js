@@ -20,10 +20,10 @@ function Introduction() {
 			</Paragraph>
 			<Paragraph>
 				There are many period tracking apps and I've used{' '}
-				<span style={{ color: `${COLORS.red}` }}>the Clue</span> for more than 2
+				<span style={{ color: `${COLORS.red}` }}>Clue</span> for more than 2
 				years. First of all, its{' '}
 				<span style={{ color: `${COLORS.red}` }}>UI</span> is very intuitive and
-				simple to use. Second, I support the Clue's{' '}
+				simple to use. Second, I support Clue's{' '}
 				<span style={{ color: `${COLORS.red}` }}>mission and values</span> .
 			</Paragraph>
 			<Paragraph>

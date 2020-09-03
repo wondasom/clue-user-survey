@@ -23,7 +23,7 @@ function Survey() {
 			</Subtitle>
 			<Paragraph>
 				Most of my fellow Twitter addicts are{' '}
-				<span style={{ color: `${COLORS.green}` }}> Korean 🇰🇷 </span> who are
+				<span style={{ color: `${COLORS.green}` }}> Korean</span> 🇰🇷 who are
 				experiencing{' '}
 				<span style={{ color: `${COLORS.green}` }}>monthly menstruation</span>{' '}
 				🩸
@@ -55,7 +55,7 @@ function Survey() {
 			</ProgressbarContainer>
 
 			<Subtitle style={{ color: `${COLORS.green}` }}>
-				Among 250 votes, 28% of them know the Clue and are using it
+				Among 250 votes, 28% of them know Clue and are using it
 			</Subtitle>
 			<ProgressbarContainer>
 				<AnimatedProgressProvider
@@ -84,7 +84,7 @@ function Survey() {
 			</ProgressbarContainer>
 
 			<Subtitle style={{ color: `${COLORS.lightGrey}` }}>
-				39% of them said they do not know the app
+				39% of them said they do not know Clue
 			</Subtitle>
 			<ProgressbarContainer>
 				<AnimatedProgressProvider
@@ -113,7 +113,7 @@ function Survey() {
 			</ProgressbarContainer>
 
 			<Subtitle style={{ color: `${COLORS.lightGrey}` }}>
-				28% of them said they know the app but do not use it
+				28% of them said they know Clue but do not use it
 			</Subtitle>
 		</SectionContainer>
 	);

@@ -37,14 +37,6 @@ export function getYes(arr) {
 }
 
 function Interview() {
-	console.log('here');
-	console.log(answers[2]);
-	console.log(answers[2][0].answer);
-	const ex = [{ answer: true }];
-	console.log(getYes(answers[2]));
-	console.log(ex);
-	console.log(getYes(ex));
-
 	return (
 		<Background>
 			<SectionContainer>
