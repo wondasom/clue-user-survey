@@ -16,7 +16,7 @@ The purpose of this project is to conduct a survey about the app [Clue](https://
 - [x] have responsive design
 - [x] have minimum clicks
 - [x] display interview results with visual presentations
-- [ ] have basic information of the Clue
+- [x] have basic information of the Clue
 - [x] have visual consistency with the Clue using the same color palette and the official logo
 - [x] be deployed successfully
 
