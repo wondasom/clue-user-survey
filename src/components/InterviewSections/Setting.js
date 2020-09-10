@@ -17,7 +17,7 @@ function Setting() {
 		<>
 			<Result>
 				{' '}
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					have been using Clue for {getAverage(answers[1])} months
 				</Subtitle>
 				<ImgBoxContainer>
@@ -25,20 +25,20 @@ function Setting() {
 						value={100}
 						strokeWidth={2}
 						styles={buildStyles({
-							pathColor: `${COLORS.blue}`,
+							pathColor: `${COLORS.pink}`,
 							trailColor: `${COLORS.greyBackground}`,
-							textColor: `${COLORS.blue}`
+							textColor: `${COLORS.pink}`
 						})}
 					>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>🗓</Subtitle>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>🗓</Subtitle>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>
 							{getAverage(answers[1])} months
 						</Subtitle>
 					</CircularProgressbarWithChildren>
 				</ImgBoxContainer>
 			</Result>
 			<Result>
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					use Clue in Korean and English
 				</Subtitle>
 				<ImgBoxContainer>
@@ -46,13 +46,13 @@ function Setting() {
 						value={100}
 						strokeWidth={2}
 						styles={buildStyles({
-							pathColor: `${COLORS.blue}`,
+							pathColor: `${COLORS.pink}`,
 							trailColor: `${COLORS.greyBackground}`,
-							textColor: `${COLORS.blue}`
+							textColor: `${COLORS.pink}`
 						})}
 					>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>가 나 다</Subtitle>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>A B C</Subtitle>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>가 나 다</Subtitle>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>A B C</Subtitle>
 					</CircularProgressbarWithChildren>
 				</ImgBoxContainer>
 			</Result>

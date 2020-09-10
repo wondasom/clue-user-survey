@@ -2,18 +2,19 @@ import styled from 'styled-components';
 
 // 🎨 color palette of Clue
 export const COLORS = {
-	red: '#e63e33',
-	pink: '#f3b8b8',
-	blue: '#144181',
+	red: '#db4c44',
+	pink: '#f3b2a0',
+	blue: '#22407c',
 	orange: '#eb6133',
 	turquoise: '#46916f',
-	aqua: '#36829b',
-	green: '#8ba52c',
+	aqua: '#4c9fbd',
+	green: '#69b4a0',
 	white: '#fefefe',
 	grey: '#333333',
 	lightGrey: '#929292',
 	yellow: '#f8c433',
-	greyBackground: '#f8f4ed'
+	greyBackground: '#f8f4ed',
+	pinkBackground: '#fff1ed'
 };
 
 // 📦 Container

@@ -14,14 +14,14 @@ function Article() {
 	return (
 		<>
 			<Result>
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					The articles are not consumed much
 				</Subtitle>
 				<PeopleContainer>
 					{answers[4].map((item) => (
 						<BsFillPersonFill
 							style={{
-								color: item.answer ? `${COLORS.blue}` : `${COLORS.lightGrey}`,
+								color: item.answer ? `${COLORS.pink}` : `${COLORS.lightGrey}`,
 								fontSize: '1.5rem'
 							}}
 						></BsFillPersonFill>
@@ -34,14 +34,14 @@ function Article() {
 				</Paragraph>
 			</Result>
 			<Result>
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					The users want to read them if they are translated
 				</Subtitle>
 				<PeopleContainer>
 					{answers[9].map((item) => (
 						<BsFillPersonFill
 							style={{
-								color: item.answer ? `${COLORS.blue}` : `${COLORS.lightGrey}`,
+								color: item.answer ? `${COLORS.pink}` : `${COLORS.lightGrey}`,
 								fontSize: '1.5rem'
 							}}
 						></BsFillPersonFill>

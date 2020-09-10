@@ -26,7 +26,7 @@ function Experience() {
 		<>
 			<Result>
 				{/* general saisfaction rating */}
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					are happy to meet Clue!
 				</Subtitle>
 
@@ -35,12 +35,12 @@ function Experience() {
 						value={getAverage(answers[3]) * 10}
 						strokeWidth={6}
 						styles={buildStyles({
-							pathColor: `${COLORS.blue}`,
+							pathColor: `${COLORS.pink}`,
 							trailColor: `${COLORS.greyBackground}`,
-							textColor: `${COLORS.blue}`
+							textColor: `${COLORS.pink}`
 						})}
 					>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>
 							{getAverage(answers[3])} / 10
 						</Subtitle>
 					</CircularProgressbarWithChildren>
@@ -53,7 +53,7 @@ function Experience() {
 			</Result>
 			<Result>
 				{/* recommendation */}
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					are willing to recommend Clue to others
 				</Subtitle>
 
@@ -61,7 +61,7 @@ function Experience() {
 					{answers[2].map((item) => (
 						<BsFillPersonFill
 							style={{
-								color: item.answer ? `${COLORS.blue}` : `${COLORS.lightGrey}`,
+								color: item.answer ? `${COLORS.pink}` : `${COLORS.lightGrey}`,
 								fontSize: '1.5rem'
 							}}
 						></BsFillPersonFill>
@@ -74,7 +74,7 @@ function Experience() {
 			</Result>
 			<Result>
 				{/* in-app translation */}
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					are satisfied with Clue's in-app Korean translation
 				</Subtitle>
 
@@ -83,12 +83,12 @@ function Experience() {
 						value={getAverage(answers[7]) * 10}
 						strokeWidth={6}
 						styles={buildStyles({
-							pathColor: `${COLORS.blue}`,
+							pathColor: `${COLORS.pink}`,
 							trailColor: `${COLORS.greyBackground}`,
-							textColor: `${COLORS.blue}`
+							textColor: `${COLORS.pink}`
 						})}
 					>
-						<Subtitle style={{ color: `${COLORS.blue}` }}>
+						<Subtitle style={{ color: `${COLORS.pink}` }}>
 							{getAverage(answers[7])} / 10
 						</Subtitle>
 					</CircularProgressbarWithChildren>
@@ -101,7 +101,7 @@ function Experience() {
 			</Result>
 			<Result>
 				{/* genter inclusivity */}
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					think Clue is gender-inclusive
 				</Subtitle>
 
@@ -109,7 +109,7 @@ function Experience() {
 					{answers[8].map((item) => (
 						<BsFillPersonFill
 							style={{
-								color: item.answer ? `${COLORS.lightGrey}` : `${COLORS.blue}`,
+								color: item.answer ? `${COLORS.lightGrey}` : `${COLORS.pink}`,
 								fontSize: '1.5rem'
 							}}
 						></BsFillPersonFill>

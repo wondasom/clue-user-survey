@@ -35,7 +35,7 @@ const HeaderContainer = styled.div`
 
 export const Background = styled.div`
 	width: 100%;
-	background-color: #f8f4ed;
+	background-color: ${COLORS.pinkBackground};
 	display: flex;
 	height: 100%;
 `;

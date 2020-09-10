@@ -41,7 +41,7 @@ function Interview() {
 		<Background>
 			<SectionContainer style={{ boxShadow: 'none' }}>
 				<Title>📋 10 Questions and Answers</Title>
-				<Subtitle style={{ color: `${COLORS.blue}` }}>
+				<Subtitle style={{ color: `${COLORS.red}` }}>
 					The interview consists of 10 questions about
 				</Subtitle>
 				<Paragraph>
@@ -157,6 +157,6 @@ export const Result = styled.div`
 `;
 
 export const StyledSpan = styled.span`
-	color: ${COLORS.blue};
+	color: ${COLORS.red};
 	font-weight: 500;
 `;
