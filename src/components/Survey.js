@@ -17,7 +17,7 @@ import AnimatedProgressProvider from '../providers/AnimatedProgressProvider';
 function Survey() {
 	return (
 		<SectionContainer>
-			<Title>✅ A Mini Survey!</Title>
+			<Title>🙋🏻‍♀️ A Mini Survey!</Title>
 			<Subtitle style={{ color: `${COLORS.green}` }}>
 				I made a poll on Twitter
 			</Subtitle>
