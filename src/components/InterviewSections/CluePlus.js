@@ -28,9 +28,12 @@ function CluePlus() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					Only
-					<StyledSpan> {getYes(answers[5])} people</StyledSpan> said they know
-					what Clue Plus is
+					<StyledSpan>
+						{' '}
+						{getYes(answers[5]) <= answers[5].length / 3 ? 'Only ' : ''}
+						{getYes(answers[5])} people
+					</StyledSpan>{' '}
+					said they know what Clue Plus is
 				</Paragraph>
 				<Paragraph>
 					<StyledSpan>The rest said they need more information</StyledSpan>

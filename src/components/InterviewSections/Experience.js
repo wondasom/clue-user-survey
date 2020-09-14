@@ -116,7 +116,11 @@ function Experience() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					<StyledSpan>All </StyledSpan>
+					<StyledSpan>
+						{getYes(answers[8]) === answers[8].length
+							? `${getYes(answers[8])}`
+							: 'All '}
+					</StyledSpan>
 					of the participants <StyledSpan>agree </StyledSpan>
 					that Clue is using gender-inclusive language
 				</Paragraph>

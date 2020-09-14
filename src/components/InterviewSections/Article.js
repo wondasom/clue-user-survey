@@ -28,9 +28,12 @@ function Article() {
 					))}
 				</PeopleContainer>
 				<Paragraph>
-					<StyledSpan>{getYes(answers[4])}</StyledSpan> of {answers[4].length}{' '}
-					said they read the articles often and think they are very
-					informational and helpful
+					<StyledSpan>
+						{getYes(answers[4]) <= answers[4].length / 3 ? 'Only ' : ''}
+						{getYes(answers[4])}
+					</StyledSpan>{' '}
+					of {answers[4].length} said they read the articles often and think
+					they are very informational and helpful
 				</Paragraph>
 			</Result>
 			<Result>
