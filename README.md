@@ -36,7 +36,7 @@ In the process of brainstorming ideas for my toy projects, I decided to take a l
 
 ### I wanted to know
 
-- general setting's of the users
+- general settings of the users
 - how satisfied the users are
 - how many people are aware of the content Clue provides
 - how many people are willing to pay for the Clue Plus(premium option)
