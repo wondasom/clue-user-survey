@@ -41,7 +41,7 @@ In the process of brainstorming ideas for my toy projects, I decided to take a l
 - how many people are aware of the content Clue provides
 - how many people are willing to pay for the Clue Plus(premium option)
 
-## ✅ First Step: a Tiny Survey
+## ✅ Step 1: a Tiny Survey
 
 ### I made a small poll on Twitter and here is the result!
 I love Twitter. I have a anonymous account with 730 followers.
@@ -61,7 +61,7 @@ As far as I know, most of my fellow Twitter addicts are
 - 👥👤👥(28%): 'I know the app and am using it' ♥️
 - 👤(5%): 'I am just curious about the result'
 
-## ✅ Secod Step: 10 Questions and Answers
+## ✅ Step 2: 10 Questions and Answers
 
 As a following step, I did a small interview with 7 people who have been using Clue for several months or years.
 
