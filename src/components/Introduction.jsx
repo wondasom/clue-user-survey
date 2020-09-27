@@ -22,11 +22,19 @@ function Introduction() {
 			</Paragraph>
 			<Paragraph>
 				There are many period tracking apps and I've used{' '}
-				<span style={{ color: `${color}` }}>Clue</span> for more than 2
-				years. First of all, its{' '}
-				<span style={{ color: `${color}` }}>UI</span> is very intuitive and
-				simple to use. Second, I support Clue's{' '}
-				<span style={{ color: `${color}` }}>mission and values</span> .
+				<span style={{ color: `${color}` }}>Clue</span> for more than 2 years.{' '}
+			</Paragraph>
+			<Paragraph>
+				{' '}
+				First of all, its <span style={{ color: `${color}` }}>UI</span> is very
+				intuitive and simple to use. Second, I support Clue's mission and
+				values:
+				<span style={{ color: `${color}` }}>
+					{' '}
+					to create and distribute accessible, scientific, and actionable health
+					information for women and people with cycles
+				</span>
+				.
 			</Paragraph>
 			<Paragraph>
 				In the process of brainstorming ideas for my React toy projects, I

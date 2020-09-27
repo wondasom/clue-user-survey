@@ -79,4 +79,5 @@ export const Paragraph = styled.div`
 	color: ${COLORS.lightGrey};
 	text-align: center;
 	/* margin-bottom: 2vw; */
+	padding-bottom: 1em;
 `;
