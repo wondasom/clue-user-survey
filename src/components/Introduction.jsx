@@ -9,10 +9,12 @@ import {
 import { COLORS } from '../constants/style';
 
 function Introduction() {
+	const color = COLORS.blue;
+
 	return (
 		<SectionContainer style={{ boxShadow: 'none' }}>
 			<Title>💁🏻‍♀️ I am the User!</Title>
-			<Subtitle style={{ color: `${COLORS.red}` }}>and I LOVE it</Subtitle>
+			<Subtitle style={{ color: `${color}` }}>and I LOVE it</Subtitle>
 			<Paragraph>
 				Tracking my period, or keeping tabs on my monthly cycle by documenting
 				the dates, symptoms, and other changes throughout the month can be
@@ -20,11 +22,11 @@ function Introduction() {
 			</Paragraph>
 			<Paragraph>
 				There are many period tracking apps and I've used{' '}
-				<span style={{ color: `${COLORS.red}` }}>Clue</span> for more than 2
+				<span style={{ color: `${color}` }}>Clue</span> for more than 2
 				years. First of all, its{' '}
-				<span style={{ color: `${COLORS.red}` }}>UI</span> is very intuitive and
+				<span style={{ color: `${color}` }}>UI</span> is very intuitive and
 				simple to use. Second, I support Clue's{' '}
-				<span style={{ color: `${COLORS.red}` }}>mission and values</span> .
+				<span style={{ color: `${color}` }}>mission and values</span> .
 			</Paragraph>
 			<Paragraph>
 				In the process of brainstorming ideas for my React toy projects, I
