@@ -13,33 +13,31 @@ function Introduction() {
 
 	return (
 		<SectionContainer style={{ boxShadow: 'none' }}>
-			<Title>💁🏻‍♀️ I am the User!</Title>
+			<Title>💁🏻‍♀️ I am the Customer!</Title>
 			<Subtitle style={{ color: `${color}` }}>and I LOVE it</Subtitle>
 			<Paragraph>
-				Tracking my period, or keeping tabs on my monthly cycle by documenting
-				the dates, symptoms, and other changes throughout the month can be
-				helpful for a variety of reasons.
+				I find it absolutely important to keep tracking my monthly cycle by
+				documenting the dates, symptoms, and other changes throughout the months
+				for several reasons. There are many period tracking apps and I've used
+				Clue for more than 2 years now.
 			</Paragraph>
 			<Paragraph>
-				There are many period tracking apps and I've used{' '}
-				<span style={{ color: `${color}` }}>Clue</span> for more than 2 years.{' '}
+				Ever since I installed the application, I have thought the{' '}
+				<span style={{ color: `${color}` }}>UI</span> is intuitive and simple to
+				use and supported their{' '}
+				<span style={{ color: `${color}` }}>mission and values:</span> to create
+				and distribute accessible, scientific, and actionable health information
+				for women and people with cycles.
 			</Paragraph>
 			<Paragraph>
-				{' '}
-				First of all, its <span style={{ color: `${color}` }}>UI</span> is very
-				intuitive and simple to use. Second, I support Clue's mission and
-				values:
+				A few months ago, I started to subscribe Clue Plus. As a front-end
+				developer, the more I knew about app development the more I realized how
+				important it is to support an inclusive, ethical, sustainable app. Based
+				on this experience and thought,{' '}
 				<span style={{ color: `${color}` }}>
-					{' '}
-					to create and distribute accessible, scientific, and actionable health
-					information for women and people with cycles
-				</span>
-				.
-			</Paragraph>
-			<Paragraph>
-				In the process of brainstorming ideas for my React toy projects, I
-				decided to take a look at an app that I use regularly and get the most
-				health-related help from.
+					I decided to make a small poll and user interview
+				</span>{' '}
+				to examine any potential obstacle to Clue's premium subscription.
 			</Paragraph>
 		</SectionContainer>
 	);

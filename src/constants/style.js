@@ -74,7 +74,7 @@ export const Subtitle = styled.h2`
 export const Paragraph = styled.div`
 	font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.8;
 	color: ${COLORS.lightGrey};
 	text-align: center;
