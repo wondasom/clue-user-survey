@@ -9,6 +9,14 @@ function Header() {
 		<HeaderContainer>
 			<Background>
 				<Logo></Logo>
+				<a
+					href='https://github.com/wondasom/clue-user-survey'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<Github>Github</Github>
+				</a>
+
 				<StyledContainer>
 					<StyledTitle>Clues for the Clue</StyledTitle>
 					<StyledSubtitle>10 questions & 7 interviewees</StyledSubtitle>
@@ -73,6 +81,42 @@ const Logo = styled.div`
 	@media (min-width: 1000px) {
 		top: 1.5vw;
 		left: 1.5vw;
+	}
+`;
+
+const Github = styled.button`
+	cursor: pointer;
+	padding: 0.8rem 1.6rem;
+	border-radius: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	text-align: center;
+	letter-spacing: 0.5px;
+	box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.08);
+	background-color: ${COLORS.red};
+	color: ${COLORS.white};
+	outline: none;
+	border: none;
+
+	position: absolute;
+	top: 6vw;
+	right: 6vw;
+	@media (min-width: 500px) {
+		top: 3vw;
+		right: 3vw;
+	}
+	@media (min-width: 700px) {
+		top: 2vw;
+		right: 2vw;
+	}
+	@media (min-width: 1000px) {
+		top: 1.5vw;
+		right: 1.5vw;
+	}
+	&:hover {
+		opacity: 0.8;
+		transition: all 0.2s ease 0s;
 	}
 `;
 

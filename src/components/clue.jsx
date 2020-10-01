@@ -41,7 +41,7 @@ const Button = styled.button`
 	padding: 1rem 2rem;
 	border-radius: 2rem;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1rem;
 	text-align: center;
 	letter-spacing: 0.5px;
