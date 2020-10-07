@@ -1,11 +1,6 @@
 # [Clues for the Clue 🩸](https://clues-for-the-clue.netlify.app/) 
 
-The purpose of this project is to conduct a survey about the app [Clue](https://helloclue.com/) and display the results on mobile and the browser using React JS.
-
-### The site is optimized for mobile devices
-<img src="src/img/mockup1.png" width="60%"><br/>
-<img src="src/img/mockup2.png" width="80%"><br/>
-
+The purpose of this project is to conduct an independent survey about the app [Clue](https://helloclue.com/) and display the results on mobile and the browser using React.js.
 
 ## 🎨 Design Requirement
 
@@ -16,17 +11,14 @@ The purpose of this project is to conduct a survey about the app [Clue](https://
 - [x] have responsive design
 - [x] have minimum clicks
 - [x] display interview results with visual presentations
-- [x] have basic information of the Clue
+- [x] have basic information of Clue
 - [x] have visual consistency with the Clue using the same color palette and the official logo
 - [x] be deployed successfully
 
 
-
-
-
 ## 💁🏻‍♀️ Overview
 
-### I am the user!
+### I am the customer!
 
 I've been bleeding for more than 15 years now. Monthly. Tracking my period, or keeping tabs on my monthly cycle by documenting the dates, symptoms, and other changes throughout the month can be helpful for a variety of reasons.
 
@@ -36,7 +28,7 @@ In the process of brainstorming ideas for my toy projects, I decided to take a l
 
 ### I wanted to know
 
-- general settings of the users
+- general in-app setting 
 - how satisfied the users are
 - how many people are aware of the content Clue provides
 - how many people are willing to pay for the Clue Plus(premium option)
