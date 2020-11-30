@@ -26,7 +26,7 @@ There are many period tracking apps and I've used the Clue for more than 2 years
 
 In the process of brainstorming ideas for my toy projects, I decided to take a look at an app that I use regularly and get the most health-related help from.
 
-### I wanted to know
+### I wanted to know the participants'
 
 - general in-app setting 
 - how satisfied the users are
@@ -100,4 +100,9 @@ to run the application
 
 ```
 npm start
+```
+
+to visit the website
+```
+https://clues-for-the-clue.netlify.app/
 ```
