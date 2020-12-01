@@ -7,7 +7,7 @@ The purpose of this project is to conduct an independent survey about the app [C
 ### The website should
 
 - [x] be single page application
-- [x] follow mobile-first approach
+- [x] follow the mobile-first approach
 - [x] have responsive design
 - [x] have minimum clicks
 - [x] display interview results with visual presentations
@@ -22,7 +22,7 @@ The purpose of this project is to conduct an independent survey about the app [C
 
 I've been bleeding for more than 15 years now. Monthly. Tracking my period, or keeping tabs on my monthly cycle by documenting the dates, symptoms, and other changes throughout the month can be helpful for a variety of reasons.
 
-There are many period tracking apps and I've used the Clue for more than 2 years. First of all, its UI is very intuitive and simple to use. Second, I support the Clue's [mission and values](https://www.youtube.com/watch?v=z_k9_0eBoxg).
+There are many period tracking apps and I've used Clue for more than 2 years. First of all, its UI is very intuitive and simple to use. Second, I support the Clue's [mission and values](https://www.youtube.com/watch?v=z_k9_0eBoxg).
 
 In the process of brainstorming ideas for my toy projects, I decided to take a look at an app that I use regularly and get the most health-related help from.
 
@@ -36,7 +36,7 @@ In the process of brainstorming ideas for my toy projects, I decided to take a l
 ## ✅ Step 1: a Tiny Survey
 
 ### I made a small poll on Twitter and here is the result!
-I love Twitter. I have a anonymous account with 730 followers.
+I love Twitter. I have an anonymous account with around 700 followers.
 
 As far as I know, most of my fellow Twitter addicts are
 
@@ -46,7 +46,7 @@ As far as I know, most of my fellow Twitter addicts are
 
 <img src="src/img/survey-on-twitter.jpeg" width="50%"><br/>
 
-### Among 250 votes, 28% of them are the Clue users!
+### Among 250 votes, 28% of them are Clue users!
 
 - 👥👤👥👤👥(39%): 'I don't know the app'
 - 👤👥👤(28%): 'I know the app but don't use it'
@@ -55,7 +55,7 @@ As far as I know, most of my fellow Twitter addicts are
 
 ## ✅ Step 2: 10 Questions and Answers
 
-As a following step, I did a small interview with 7 people who have been using Clue for several months or years.
+As the following step, I did a small interview with 7 people who have been using Clue for several months or years.
 
 ### The interview consists of 10 questions about
 
